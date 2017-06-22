@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="js/animate.min.css"/>
+		<link rel="stylesheet" type="text/css" href="js/swiper-3.3.1.min.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/touch.min.js" type="text/javascript" charset="utf-8"></script>
+		<title>微信小场景</title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;}
+			.quan{width: 100vw;height: 100vh;}
+			.s1{width: 100%;height: 100vh;position: relative;background: #ffe2e7;}
+			.s2{width: 100%;height: 100vh;background: #ffe2e7;}
+			.s3{width: 100%;height: 100vh;}
+			.s4{width: 100%;height: 100vh;}
+			.s5{width: 100%;height: 100vh;}
+			.s6{width: 100%;height: 100vh;}
+.img1{width: 80%;height: 50%;margin-left:10% ;}
+.img2{width: 70%;height: 40%;margin-left: 15%;margin-top: 10%;}
+.p1{position: absolute;margin:auto;top:5rem;left: 0;text-align: center;}
+.im1{width: 40%;height: 30%;}
+.im2{width: ;}
+.im3{width:30% ;height: 10%;position: absolute;right: 0;top: 0;}
+.im4{width:30% ;height: 10%;position: absolute;right: 10%;top: 10%;}
+.im5{width:30% ;height: 10%;position: absolute;right: 20%;top: 20%;}
+.i1{position: absolute;margin:auto;top:5.5rem;left: 0;text-align: center;width: 60%;height: 10%;}
+.img11{width: 100%;height: 50%;}
+.img12{width: 100%;height: 50%;}
+.i11{position: absolute;margin:auto;top:5.5rem;left: 2rem;text-align: center;width: 30%;height: 10%;}
+.h1{width: 100%;height: 100%;}
+.h2{height: 50%;width: 100%;position: absolute;left: 0;top: 0;}
+.h3{height: 50%;width: 100%;position: absolute;left: 0;bottom: 0;}
+.h4{position: absolute;margin:auto;top:5.5rem;left: 1rem;text-align: center;width: 70%;height: 10%;}
+
+@keyframes yin{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+.jmy{display: none;}
+.yin{width: 2rem;height: 2rem;border-radius:2rem 2rem ;position: fixed;right: 0;bottom: 0;z-index: 200;animation: yin 5s linear infinite;}
+		</style>
+	</head>
+	<body>
+		<img  class="yin" src="img/yin.jpg"/>
+		<audio src="img/1.mp3" id="ado"  autoplay="autoplay" loop="loop"></audio>
+		<div class="swiper-container quan">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide s1 ">
+    <p class="jmy">潘羽，17-6-16日作,不理我了</p>
+        	    <img src="img/ti.png"  class="ani im1"    swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>
+        		<img src="img/i.png"  class="ani im2"    swiper-animate-effect="bounceInLeft" swiper-animate-duration="2.5s" swiper-animate-delay="0.3s"/>
+   				<img src="img/2.png"  class="ani im3"    swiper-animate-effect="bounceInDown" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s"/> 
+				<img src="img/3.png"  class="ani im4"    swiper-animate-effect="bounceInRight" swiper-animate-duration="2s" swiper-animate-delay="0.3s"/> 
+   				<img src="img/5.png"  class="ani im5"    swiper-animate-effect="bounceInLeft" swiper-animate-duration="2.5s" swiper-animate-delay="0.3s"/>    
+        </div>
+        <div class="swiper-slide s2">
+        	        	<img src="img/1.jpg"  class="ani img1"    swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"/>
+        				<img src="img/timg.jpg"  class="ani img2"    swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>      		
+      					<img src="img/4.png"  class="ani i1"    swiper-animate-effect="wobble" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s"/>
+
+        </div>
+        <div class="swiper-slide s3">
+         	        	<img src="img/long.jpg"  class="ani img11"    swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"/>
+        				<img src="img/long1.jpg"  class="ani img12"    swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>      		
+      					<img src="img/longz.png"  class="ani i11"    swiper-animate-effect="hinge" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s"/>
+
+        </div>
+        <div class="swiper-slide s4">
+                 	    <img src="img/ha2.jpg"  class="ani h1"    swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"/>
+        				<img src="img/ha.jpg"  class="ani h2"    swiper-animate-effect="zoomOutLeft" swiper-animate-duration="1s" swiper-animate-delay="1s"/>      		
+      					<img src="img/ha1.jpg"  class="ani h3"    swiper-animate-effect="bounceOutRight" swiper-animate-duration="1.5s" swiper-animate-delay="1s"/>	
+      					<img src="img/ha1.png"  class="ani h4"    swiper-animate-effect="bounceOut" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s"/>	
+        </div>
+        <div class="swiper-slide s5">
+        	            <img src="img/hai3.jpg"  class="ani h1"    swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"/>
+        				<img src="img/hai1.jpg"  class="ani h2"    swiper-animate-effect="bounceOutRight" swiper-animate-duration="1s" swiper-animate-delay="1s"/>      		
+      					<img src="img/hai2.jpg"  class="ani h3"    swiper-animate-effect="zoomOutLeft" swiper-animate-duration="1.5s" swiper-animate-delay="1s"/>	
+      					<img src="img/hai.png"  class="ani h4"    swiper-animate-effect="lightSpeedOut" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s"/>
+        </div>
+        <div class="swiper-slide s6">
+        	         	 <img src="img/g1.jpg"  class="ani img11"    swiper-animate-effect="slideInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s"/>
+        				<img src="img/g2.jpg"  class="ani img12"    swiper-animate-effect="rollIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s"/>      		
+<img src="img/g.png"  class="ani h4"    swiper-animate-effect="lightSpeedOut" swiper-animate-duration="1.5s" swiper-animate-delay="1.5s"/>
+        </div>
+    </div>
+
+</div>
+
+
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    
+    
+    
+    
+      onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+    swiperAnimateCache(swiper); //隐藏动画元素 
+    swiperAnimate(swiper); //初始化完成开始动画
+  }, 
+  onSlideChangeEnd: function(swiper){ 
+    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+  } 
+  }) 
+ 
+$(function(){
+	var music=document.getElementById('ado');
+ 
+$('.yin').on('tap', function() {
+				if(music.paused) {
+					music.play()
+					$('.yin').css('animationPlayState', 'running')
+				} else {
+					music.pause()
+					$('.yin').css('animationPlayState', 'paused')
+				}
+			})
+})
+
+
+  
+  
+  
+  </script>
+	</body>
+</html>
